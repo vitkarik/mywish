@@ -135,7 +135,11 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .hero-block-container {
-  max-width: 100%;
+  display: grid;
+  width: 100%;
+  max-width: 1400px;
+  margin-right: auto;
+  margin-left: auto;
   height: 760px;
 }
 
@@ -144,12 +148,20 @@ footer, header, hgroup, menu, nav, section {
   width: 640px;
   left: 80px;
   top: 120px;
+  padding-left: 80px;
 }
 
 .mainpic {
   height: 460px;
   width: 460px;
   border: 8px solid #FFFFFF;
+  padding-left: 180px;
+  z-index: 10;
+}
+
+.animbubbles {
+  transform: translate(80px, -530px);
+  z-index: 1;
 }
 
 
