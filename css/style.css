@@ -43,7 +43,7 @@ footer, header, hgroup, menu, nav, section {
    background: #E5E5E5;
 }
 .container {
-   max-width: var(--container-width);
+   max-width: 100%;
 }
 .logo {
    font-family: 'Baloo 2', cursive;
@@ -62,12 +62,23 @@ footer, header, hgroup, menu, nav, section {
 }
 .header {
    position: relative;
+   max-width: 100%;
 }
 .menu-container {
-  padding-left: 2px;
-  padding-right: 2px;
+  padding-bottom: 40px;
+  padding-top: 40px;
   width: 100%;
   background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-position {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logonav {
@@ -78,6 +89,12 @@ footer, header, hgroup, menu, nav, section {
   font-size: 30px;
   line-height: 47px;
   color: var(--main-color);
+}
+
+.navigation {
+  display: flex;
+  justify-content: right;
+  padding-left: 518px;
 }
 
 .menu-items {
@@ -93,8 +110,6 @@ footer, header, hgroup, menu, nav, section {
 
 .ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #333333;
 }
@@ -109,3 +124,32 @@ footer, header, hgroup, menu, nav, section {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+}
+
+.white-gradient {
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 120px;
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.hero-block-container {
+  max-width: 100%;
+  height: 760px;
+}
+
+.hero-block-left {
+  height: 640px;
+  width: 640px;
+  left: 80px;
+  top: 120px;
+}
+
+.mainpic {
+  height: 460px;
+  width: 460px;
+  border: 8px solid #FFFFFF;
+}
+
+
