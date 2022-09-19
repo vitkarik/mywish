@@ -260,3 +260,71 @@ body {
     right: 0;
     bottom: 0;
 }
+
+.brands-heading {
+  display: flex;
+  justify-content: center;
+  max-width: 1280px;
+  margin: 158px auto 0;
+  position: relative;
+}
+
+.brands-title {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: center;
+}
+
+.block-name {
+  font-family: 'Baloo 2';
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 63px;
+}
+
+.dot-small {
+  height: 20px;
+  width: 20px;
+  background-color: #FFF5F5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot-big {
+  height: 48px;
+  width: 48px;
+  background-color: #FFF5F5;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.brandscards-row {
+  display: flex;
+  max-width: 1024px;
+  margin: 38px auto 0;
+  justify-content: space-between;
+}
+
+.brand-card {
+  border: 1px solid #FC6A57;
+  border-radius: 6px;
+}
+
+.star-icon {
+  margin: 20px 0 0 20px;
+}
+
+.brand-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #FC6A57;
+  border-radius: 6px;
+}
