@@ -37,13 +37,22 @@ footer, header, hgroup, menu, nav, section {
    --container-width: 1278px;
    --main-color: #FC6A57;
 }
-.body {
+/* .body {
    font-family: 'Baloo 2', cursive;
    font-family: 'Nunito', sans-serif;
    background: #E5E5E5;
-}
+} */
+
+body {
+    /* font-family: 'Baloo 2', cursive; */
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    /* background: #E5E5E5; */
+    color: var(--main-color);
+ }
+
 .container {
-   max-width: 100%;
+   /* max-width: 100%; */
 }
 .logo {
    font-family: 'Baloo 2', cursive;
@@ -61,29 +70,33 @@ footer, header, hgroup, menu, nav, section {
   font-family: 'Nunito', sans-serif;
 }
 .header {
-   position: relative;
-   max-width: 100%;
+   /* position: relative;
+   max-width: 100%; */
+   background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%);
 }
 .menu-container {
   padding-bottom: 40px;
   padding-top: 40px;
-  width: 100%;
-  background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%);
-  margin-left: auto;
-  margin-right: auto;
+  /* width: 100%; */
+  /* background: linear-gradient(180deg, #FFF1F2 0%, #FFFFFF 75.83%); */
+  /* margin-left: auto;
+  margin-right: auto; */
+  max-width: 1280px;
+  margin: 0 auto;
+
 }
 
 .header-position {
-  width: 100%;
-  position: relative;
+  /* width: 100%;
+  position: relative; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .logonav {
-  position: absolute;
-  left: 80px;
+  /* position: absolute;
+  left: 80px; */
   font-family: 'Baloo 2';
   font-weight: 800;
   font-size: 30px;
@@ -92,9 +105,9 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .navigation {
-  display: flex;
+  /* display: flex;
   justify-content: right;
-  padding-left: 518px;
+  padding-left: 518px; */
 }
 
 .menu-items {
@@ -102,7 +115,7 @@ footer, header, hgroup, menu, nav, section {
   font-weight: 400;
   text-decoration: none;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   gap: 50px;
   color: var(--main-color);
@@ -135,42 +148,115 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .hero-block-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  height: 760px;
-  padding-top: 17px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* width: 100%; */
+    /* height: 760px; */
+    /* padding-top: 17px; */
+    max-width: 1280px;
+    margin: 0 auto;
+    /* align-items: center; */
+    position: relative;
 }
 
 .hero-block-left {
-  display: flex;
-  justify-content: flex-start;
+  /* display: flex;
+  justify-content: flex-start; */
   position: relative;
 }
 
 .mainpic {
-  height: 460px;
-  width: 460px;
-  border-radius: 50%;
-  border: 8px solid #FFFFFF;
-  z-index: 7;
+    /* height: 460px; * */
+    max-width: 460px;
+    border-radius: 50%;
+    /* border: 8px solid #FFFFFF; */
+    z-index: 7;
+    position: relative;
+    right: -70px;
+    top: 70px;
 }
 
 .bubbles-block {
-  height: 640px;
+  /* height: 640px;
   width: 640px;
   top: 120px;
   transform: translate(-400px, -80px);
-  z-index: auto;
+  z-index: auto; */
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .animbubbles {
 
 }
 
-.hero-block-right {
-  position: relative;
+.about{
+    flex: 0 0 640px;
 }
 
+.maintitle{
+    font-family: 'Baloo 2';
+    font-size: 80px;
+    line-height: 128px;
+}
 
+.about-text{
+    font-size: 20px;
+    line-height: 140%;
+}
+
+#countdown::before{
+    content: "";
+    display: block;
+    border-radius: 50%;
+    background-color: #FFF5F5;
+    width: 318px;
+    height: 318px;
+    mix-blend-mode: multiply;
+}
+
+.countdown-text{
+    position: absolute;
+    text-align: center;
+}
+
+#countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 65px;
+    bottom: 0;
+}
+
+.expiredcontainer::after{
+    content: "";
+    border-radius: 50%;
+    background-color: #FFF5F5;
+    width: 130px;
+    height: 130px;
+    mix-blend-mode: multiply;
+} 
+
+#countdownexpired{
+    position: absolute;
+    
+}
+
+#countdownfunc{
+    font-family: 'Baloo 2', cursive;
+   font-size: 30px;
+}
+
+.expiredcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
