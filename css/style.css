@@ -121,6 +121,13 @@ body {
   color: var(--main-color);
 }
 
+.menu-items-active {
+   background: var(--main-color);
+   border-radius: 20px;
+   color: #FFFFFF;
+   padding: 9px 20px;
+}
+
 .ul {
   list-style-type: none;
   overflow: hidden;
@@ -276,14 +283,14 @@ body {
   align-items: center;
 }
 
-.block-name {
+.block-brands-name {
   font-family: 'Baloo 2';
   font-weight: 800;
   font-size: 40px;
   line-height: 63px;
 }
 
-.dot-small {
+.dot-s {
   height: 20px;
   width: 20px;
   background-color: #FFF5F5;
@@ -291,7 +298,7 @@ body {
   display: inline-block;
 }
 
-.dot-big {
+.dot-b {
   height: 48px;
   width: 48px;
   background-color: #FFF5F5;
