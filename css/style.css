@@ -267,6 +267,30 @@ body {
     right: 0;
     bottom: 0;
 }
+/* Rimma */
+.dreamscontainer {
+   padding-top: 158px;
+}
+h2 {
+   text-align: center;
+   font-family: 'Baloo 2', cursive;
+   font-size: 40px;
+   padding-bottom: 38px;
+}
+.dreamscards {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 auto;
+}
+.dreams-fame {
+
+}
+/* Rimma */
+
+
+
+
+
 
 .brands-heading {
   display: flex;
