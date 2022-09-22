@@ -275,12 +275,23 @@ h2 {
    text-align: center;
    font-family: 'Baloo 2', cursive;
    font-size: 40px;
-   padding-bottom: 38px;
+  /* padding-bottom: 38px; */
 }
+
+.dreams-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  width: 428px;
+  height: 60px;
+}
+
 .dreamscards {
    display: flex;
    justify-content: space-around;
-   margin: 0 auto;
+   margin: 40px 0 auto;
 }
 .dreams-fame {
 
@@ -290,28 +301,33 @@ h2 {
 
 
 
-
-
 .brands-heading {
-  display: flex;
+  display: block;
   justify-content: center;
-  max-width: 1280px;
+  align-items: center;
+  max-width: 100%;
   margin: 158px auto 0;
   position: relative;
+}
+
+.brands-container {
+  display: block;
+  margin: 0 auto;
 }
 
 .brands-title {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
   align-items: center;
+  margin: 0 auto;
+  gap: 30px;
+  width: 413px;
 }
 
 .block-brands-name {
   font-family: 'Baloo 2';
   font-weight: 800;
   font-size: 40px;
-  line-height: 63px;
 }
 
 .dot-s {
@@ -319,7 +335,6 @@ h2 {
   width: 20px;
   background-color: #FFF5F5;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .dot-b {
@@ -327,7 +342,6 @@ h2 {
   width: 48px;
   background-color: #FFF5F5;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .brandscards-row {
