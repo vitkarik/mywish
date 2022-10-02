@@ -275,7 +275,7 @@ h2 {
    text-align: center;
    font-family: 'Baloo 2', cursive;
    font-size: 40px;
-  /* padding-bottom: 38px; */
+
 }
 
 .dreams-title {
@@ -294,7 +294,44 @@ h2 {
    margin: 40px 0 auto;
 }
 .dreams-fame {
-
+   border: 1px solid #FC6A57;
+   border-radius: 6px;
+   
+}
+.heard-icon {
+   position: absolute;
+   margin: 20px 0 0 20px;
+}
+.dreams-name {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 70px;
+   font-family: 'Nunito';
+   font-weight: 400;
+   font-size: 20px;
+   text-align: center;
+   color: #FFFFFF;
+   background: #FC6A57;
+   border-radius: 6px;
+}
+.dreams-next {
+background: #FFF5F5;
+border-radius: 6px;
+padding: 30px 30px 100px 30px;
+}
+.dreams-pink {
+height: 30px;
+left: 30px;
+right: 30px;
+bottom: 40px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+text-align: center;
+color: #FC6A57;
 }
 /* Rimma */
 
@@ -372,4 +409,39 @@ h2 {
   color: #FFFFFF;
   background: #FC6A57;
   border-radius: 6px;
+}
+
+
+
+/*Rimma*/
+.goodideacontainer {
+padding-top: 100px;
+display: block;
+
+}
+
+.good-title {
+   width: 1440px;
+   height: 590px;
+   background: #FFF5F5;
+}
+.goodcards {
+display: flex;
+justify-content: space-around;
+margin: 40px 0 auto;
+}
+.like-icon {
+   margin: 20px 0 0 20px;
+
+}
+
+
+.badideacontainer{
+   padding-top: 58px;
+
+}
+.badideacards {
+   display: flex;
+   justify-content: space-around;
+   margin: 40px 0 auto;
 }
